@@ -1,0 +1,12 @@
+[package]
+name = "HelloWorld"
+version = "0.1.0"
+authors = ["Dennis Stepp"]
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bin"
+path = "src/bin.rs"
